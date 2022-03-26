@@ -1,0 +1,51 @@
+C:\Users\ivane\Desktop\AspNet_MVC_6.0_Template\src\AutoPro.Services\bin\Debug\net6.0\AutoPro.Services.deps.json
+C:\Users\ivane\Desktop\AspNet_MVC_6.0_Template\src\AutoPro.Services\bin\Debug\net6.0\AutoPro.Services.dll
+C:\Users\ivane\Desktop\AspNet_MVC_6.0_Template\src\AutoPro.Services\bin\Debug\net6.0\AutoPro.Services.pdb
+C:\Users\ivane\Desktop\AspNet_MVC_6.0_Template\src\AutoPro.Services\bin\Debug\net6.0\AutoPro.Common.dll
+C:\Users\ivane\Desktop\AspNet_MVC_6.0_Template\src\AutoPro.Services\bin\Debug\net6.0\AutoPro.Data.dll
+C:\Users\ivane\Desktop\AspNet_MVC_6.0_Template\src\AutoPro.Services\bin\Debug\net6.0\AutoPro.Common.pdb
+C:\Users\ivane\Desktop\AspNet_MVC_6.0_Template\src\AutoPro.Services\bin\Debug\net6.0\AutoPro.Data.pdb
+C:\Users\ivane\Desktop\AspNet_MVC_6.0_Template\src\AutoPro.Services\obj\Debug\net6.0\AutoPro.Services.csproj.AssemblyReference.cache
+C:\Users\ivane\Desktop\AspNet_MVC_6.0_Template\src\AutoPro.Services\obj\Debug\net6.0\AutoPro.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ivane\Desktop\AspNet_MVC_6.0_Template\src\AutoPro.Services\obj\Debug\net6.0\AutoPro.Services.AssemblyInfoInputs.cache
+C:\Users\ivane\Desktop\AspNet_MVC_6.0_Template\src\AutoPro.Services\obj\Debug\net6.0\AutoPro.Services.AssemblyInfo.cs
+C:\Users\ivane\Desktop\AspNet_MVC_6.0_Template\src\AutoPro.Services\obj\Debug\net6.0\AutoPro.Services.csproj.CoreCompileInputs.cache
+C:\Users\ivane\Desktop\AspNet_MVC_6.0_Template\src\AutoPro.Services\obj\Debug\net6.0\AutoPro.Services.csproj.CopyComplete
+C:\Users\ivane\Desktop\AspNet_MVC_6.0_Template\src\AutoPro.Services\obj\Debug\net6.0\AutoPro.Services.dll
+C:\Users\ivane\Desktop\AspNet_MVC_6.0_Template\src\AutoPro.Services\obj\Debug\net6.0\refint\AutoPro.Services.dll
+C:\Users\ivane\Desktop\AspNet_MVC_6.0_Template\src\AutoPro.Services\obj\Debug\net6.0\AutoPro.Services.pdb
+C:\Users\ivane\Desktop\AspNet_MVC_6.0_Template\src\AutoPro.Services\obj\Debug\net6.0\ref\AutoPro.Services.dll
+C:\Users\ivane\Desktop\AutoProAspNetcoreWithAngular111\src\AutoPro.Services\obj\Debug\net6.0\AutoPro.Services.dll
+C:\Users\ivane\Desktop\AutoProAspNetcoreWithAngular111\src\AutoPro.Services\obj\Debug\net6.0\refint\AutoPro.Services.dll
+C:\Users\ivane\Desktop\AutoProAspNetcoreWithAngular111\src\AutoPro.Services\obj\Debug\net6.0\AutoPro.Services.pdb
+C:\Users\ivane\Desktop\AutoProAspNetcoreWithAngular111\src\AutoPro.Services\bin\Debug\net6.0\AutoPro.Services.deps.json
+C:\Users\ivane\Desktop\AutoProAspNetcoreWithAngular111\src\AutoPro.Services\bin\Debug\net6.0\AutoPro.Services.dll
+C:\Users\ivane\Desktop\AutoProAspNetcoreWithAngular111\src\AutoPro.Services\bin\Debug\net6.0\AutoPro.Services.pdb
+C:\Users\ivane\Desktop\AutoProAspNetcoreWithAngular111\src\AutoPro.Services\bin\Debug\net6.0\AutoPro.Common.dll
+C:\Users\ivane\Desktop\AutoProAspNetcoreWithAngular111\src\AutoPro.Services\bin\Debug\net6.0\AutoPro.Data.dll
+C:\Users\ivane\Desktop\AutoProAspNetcoreWithAngular111\src\AutoPro.Services\bin\Debug\net6.0\AutoPro.Common.pdb
+C:\Users\ivane\Desktop\AutoProAspNetcoreWithAngular111\src\AutoPro.Services\bin\Debug\net6.0\AutoPro.Data.pdb
+C:\Users\ivane\Desktop\AutoProAspNetcoreWithAngular111\src\AutoPro.Services\obj\Debug\net6.0\AutoPro.Services.csproj.AssemblyReference.cache
+C:\Users\ivane\Desktop\AutoProAspNetcoreWithAngular111\src\AutoPro.Services\obj\Debug\net6.0\AutoPro.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ivane\Desktop\AutoProAspNetcoreWithAngular111\src\AutoPro.Services\obj\Debug\net6.0\AutoPro.Services.AssemblyInfoInputs.cache
+C:\Users\ivane\Desktop\AutoProAspNetcoreWithAngular111\src\AutoPro.Services\obj\Debug\net6.0\AutoPro.Services.AssemblyInfo.cs
+C:\Users\ivane\Desktop\AutoProAspNetcoreWithAngular111\src\AutoPro.Services\obj\Debug\net6.0\AutoPro.Services.csproj.CoreCompileInputs.cache
+C:\Users\ivane\Desktop\AutoProAspNetcoreWithAngular111\src\AutoPro.Services\obj\Debug\net6.0\AutoPro.Services.csproj.CopyComplete
+C:\Users\ivane\Desktop\AutoProAspNetcoreWithAngular111\src\AutoPro.Services\obj\Debug\net6.0\ref\AutoPro.Services.dll
+D:\GitHub Repository\AutoProAspNetCoreWithAngular\src\Server\AutoPro.Services\bin\Debug\net6.0\AutoPro.Services.deps.json
+D:\GitHub Repository\AutoProAspNetCoreWithAngular\src\Server\AutoPro.Services\bin\Debug\net6.0\AutoPro.Services.dll
+D:\GitHub Repository\AutoProAspNetCoreWithAngular\src\Server\AutoPro.Services\bin\Debug\net6.0\AutoPro.Services.pdb
+D:\GitHub Repository\AutoProAspNetCoreWithAngular\src\Server\AutoPro.Services\bin\Debug\net6.0\AutoPro.Common.dll
+D:\GitHub Repository\AutoProAspNetCoreWithAngular\src\Server\AutoPro.Services\bin\Debug\net6.0\AutoPro.Data.dll
+D:\GitHub Repository\AutoProAspNetCoreWithAngular\src\Server\AutoPro.Services\bin\Debug\net6.0\AutoPro.Common.pdb
+D:\GitHub Repository\AutoProAspNetCoreWithAngular\src\Server\AutoPro.Services\bin\Debug\net6.0\AutoPro.Data.pdb
+D:\GitHub Repository\AutoProAspNetCoreWithAngular\src\Server\AutoPro.Services\obj\Debug\net6.0\AutoPro.Services.csproj.AssemblyReference.cache
+D:\GitHub Repository\AutoProAspNetCoreWithAngular\src\Server\AutoPro.Services\obj\Debug\net6.0\AutoPro.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub Repository\AutoProAspNetCoreWithAngular\src\Server\AutoPro.Services\obj\Debug\net6.0\AutoPro.Services.AssemblyInfoInputs.cache
+D:\GitHub Repository\AutoProAspNetCoreWithAngular\src\Server\AutoPro.Services\obj\Debug\net6.0\AutoPro.Services.AssemblyInfo.cs
+D:\GitHub Repository\AutoProAspNetCoreWithAngular\src\Server\AutoPro.Services\obj\Debug\net6.0\AutoPro.Services.csproj.CoreCompileInputs.cache
+D:\GitHub Repository\AutoProAspNetCoreWithAngular\src\Server\AutoPro.Services\obj\Debug\net6.0\AutoPro.Services.csproj.CopyComplete
+D:\GitHub Repository\AutoProAspNetCoreWithAngular\src\Server\AutoPro.Services\obj\Debug\net6.0\AutoPro.Services.dll
+D:\GitHub Repository\AutoProAspNetCoreWithAngular\src\Server\AutoPro.Services\obj\Debug\net6.0\refint\AutoPro.Services.dll
+D:\GitHub Repository\AutoProAspNetCoreWithAngular\src\Server\AutoPro.Services\obj\Debug\net6.0\AutoPro.Services.pdb
+D:\GitHub Repository\AutoProAspNetCoreWithAngular\src\Server\AutoPro.Services\obj\Debug\net6.0\ref\AutoPro.Services.dll

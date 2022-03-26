@@ -1,0 +1,51 @@
+C:\Users\ivane\Desktop\AspNet_MVC_6.0_Template\src\AutoPro.Data\bin\Debug\net6.0\AutoPro.Data.deps.json
+C:\Users\ivane\Desktop\AspNet_MVC_6.0_Template\src\AutoPro.Data\bin\Debug\net6.0\AutoPro.Data.runtimeconfig.json
+C:\Users\ivane\Desktop\AspNet_MVC_6.0_Template\src\AutoPro.Data\bin\Debug\net6.0\AutoPro.Data.dll
+C:\Users\ivane\Desktop\AspNet_MVC_6.0_Template\src\AutoPro.Data\bin\Debug\net6.0\AutoPro.Data.pdb
+C:\Users\ivane\Desktop\AspNet_MVC_6.0_Template\src\AutoPro.Data\bin\Debug\net6.0\AutoPro.Common.dll
+C:\Users\ivane\Desktop\AspNet_MVC_6.0_Template\src\AutoPro.Data\bin\Debug\net6.0\AutoPro.Common.pdb
+C:\Users\ivane\Desktop\AspNet_MVC_6.0_Template\src\AutoPro.Data\obj\Debug\net6.0\AutoPro.Data.csproj.AssemblyReference.cache
+C:\Users\ivane\Desktop\AspNet_MVC_6.0_Template\src\AutoPro.Data\obj\Debug\net6.0\AutoPro.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ivane\Desktop\AspNet_MVC_6.0_Template\src\AutoPro.Data\obj\Debug\net6.0\AutoPro.Data.AssemblyInfoInputs.cache
+C:\Users\ivane\Desktop\AspNet_MVC_6.0_Template\src\AutoPro.Data\obj\Debug\net6.0\AutoPro.Data.AssemblyInfo.cs
+C:\Users\ivane\Desktop\AspNet_MVC_6.0_Template\src\AutoPro.Data\obj\Debug\net6.0\AutoPro.Data.csproj.CoreCompileInputs.cache
+C:\Users\ivane\Desktop\AspNet_MVC_6.0_Template\src\AutoPro.Data\obj\Debug\net6.0\AutoPro.Data.csproj.CopyComplete
+C:\Users\ivane\Desktop\AspNet_MVC_6.0_Template\src\AutoPro.Data\obj\Debug\net6.0\AutoPro.Data.dll
+C:\Users\ivane\Desktop\AspNet_MVC_6.0_Template\src\AutoPro.Data\obj\Debug\net6.0\refint\AutoPro.Data.dll
+C:\Users\ivane\Desktop\AspNet_MVC_6.0_Template\src\AutoPro.Data\obj\Debug\net6.0\AutoPro.Data.pdb
+C:\Users\ivane\Desktop\AspNet_MVC_6.0_Template\src\AutoPro.Data\obj\Debug\net6.0\AutoPro.Data.genruntimeconfig.cache
+C:\Users\ivane\Desktop\AspNet_MVC_6.0_Template\src\AutoPro.Data\obj\Debug\net6.0\ref\AutoPro.Data.dll
+C:\Users\ivane\Desktop\AutoProAspNetcoreWithAngular111\src\AutoPro.Data\bin\Debug\net6.0\AutoPro.Data.deps.json
+C:\Users\ivane\Desktop\AutoProAspNetcoreWithAngular111\src\AutoPro.Data\bin\Debug\net6.0\AutoPro.Data.runtimeconfig.json
+C:\Users\ivane\Desktop\AutoProAspNetcoreWithAngular111\src\AutoPro.Data\bin\Debug\net6.0\AutoPro.Data.dll
+C:\Users\ivane\Desktop\AutoProAspNetcoreWithAngular111\src\AutoPro.Data\bin\Debug\net6.0\AutoPro.Data.pdb
+C:\Users\ivane\Desktop\AutoProAspNetcoreWithAngular111\src\AutoPro.Data\bin\Debug\net6.0\AutoPro.Common.dll
+C:\Users\ivane\Desktop\AutoProAspNetcoreWithAngular111\src\AutoPro.Data\bin\Debug\net6.0\AutoPro.Common.pdb
+C:\Users\ivane\Desktop\AutoProAspNetcoreWithAngular111\src\AutoPro.Data\obj\Debug\net6.0\AutoPro.Data.csproj.AssemblyReference.cache
+C:\Users\ivane\Desktop\AutoProAspNetcoreWithAngular111\src\AutoPro.Data\obj\Debug\net6.0\AutoPro.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ivane\Desktop\AutoProAspNetcoreWithAngular111\src\AutoPro.Data\obj\Debug\net6.0\AutoPro.Data.AssemblyInfoInputs.cache
+C:\Users\ivane\Desktop\AutoProAspNetcoreWithAngular111\src\AutoPro.Data\obj\Debug\net6.0\AutoPro.Data.AssemblyInfo.cs
+C:\Users\ivane\Desktop\AutoProAspNetcoreWithAngular111\src\AutoPro.Data\obj\Debug\net6.0\AutoPro.Data.csproj.CoreCompileInputs.cache
+C:\Users\ivane\Desktop\AutoProAspNetcoreWithAngular111\src\AutoPro.Data\obj\Debug\net6.0\AutoPro.Data.csproj.CopyComplete
+C:\Users\ivane\Desktop\AutoProAspNetcoreWithAngular111\src\AutoPro.Data\obj\Debug\net6.0\AutoPro.Data.dll
+C:\Users\ivane\Desktop\AutoProAspNetcoreWithAngular111\src\AutoPro.Data\obj\Debug\net6.0\refint\AutoPro.Data.dll
+C:\Users\ivane\Desktop\AutoProAspNetcoreWithAngular111\src\AutoPro.Data\obj\Debug\net6.0\AutoPro.Data.pdb
+C:\Users\ivane\Desktop\AutoProAspNetcoreWithAngular111\src\AutoPro.Data\obj\Debug\net6.0\AutoPro.Data.genruntimeconfig.cache
+C:\Users\ivane\Desktop\AutoProAspNetcoreWithAngular111\src\AutoPro.Data\obj\Debug\net6.0\ref\AutoPro.Data.dll
+D:\GitHub Repository\AutoProAspNetCoreWithAngular\src\Server\AutoPro.Data\bin\Debug\net6.0\AutoPro.Data.deps.json
+D:\GitHub Repository\AutoProAspNetCoreWithAngular\src\Server\AutoPro.Data\bin\Debug\net6.0\AutoPro.Data.runtimeconfig.json
+D:\GitHub Repository\AutoProAspNetCoreWithAngular\src\Server\AutoPro.Data\bin\Debug\net6.0\AutoPro.Data.dll
+D:\GitHub Repository\AutoProAspNetCoreWithAngular\src\Server\AutoPro.Data\bin\Debug\net6.0\AutoPro.Data.pdb
+D:\GitHub Repository\AutoProAspNetCoreWithAngular\src\Server\AutoPro.Data\bin\Debug\net6.0\AutoPro.Common.dll
+D:\GitHub Repository\AutoProAspNetCoreWithAngular\src\Server\AutoPro.Data\bin\Debug\net6.0\AutoPro.Common.pdb
+D:\GitHub Repository\AutoProAspNetCoreWithAngular\src\Server\AutoPro.Data\obj\Debug\net6.0\AutoPro.Data.csproj.AssemblyReference.cache
+D:\GitHub Repository\AutoProAspNetCoreWithAngular\src\Server\AutoPro.Data\obj\Debug\net6.0\AutoPro.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub Repository\AutoProAspNetCoreWithAngular\src\Server\AutoPro.Data\obj\Debug\net6.0\AutoPro.Data.AssemblyInfoInputs.cache
+D:\GitHub Repository\AutoProAspNetCoreWithAngular\src\Server\AutoPro.Data\obj\Debug\net6.0\AutoPro.Data.AssemblyInfo.cs
+D:\GitHub Repository\AutoProAspNetCoreWithAngular\src\Server\AutoPro.Data\obj\Debug\net6.0\AutoPro.Data.csproj.CoreCompileInputs.cache
+D:\GitHub Repository\AutoProAspNetCoreWithAngular\src\Server\AutoPro.Data\obj\Debug\net6.0\AutoPro.Data.csproj.CopyComplete
+D:\GitHub Repository\AutoProAspNetCoreWithAngular\src\Server\AutoPro.Data\obj\Debug\net6.0\AutoPro.Data.dll
+D:\GitHub Repository\AutoProAspNetCoreWithAngular\src\Server\AutoPro.Data\obj\Debug\net6.0\refint\AutoPro.Data.dll
+D:\GitHub Repository\AutoProAspNetCoreWithAngular\src\Server\AutoPro.Data\obj\Debug\net6.0\AutoPro.Data.pdb
+D:\GitHub Repository\AutoProAspNetCoreWithAngular\src\Server\AutoPro.Data\obj\Debug\net6.0\AutoPro.Data.genruntimeconfig.cache
+D:\GitHub Repository\AutoProAspNetCoreWithAngular\src\Server\AutoPro.Data\obj\Debug\net6.0\ref\AutoPro.Data.dll
