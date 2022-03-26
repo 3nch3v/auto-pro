@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hbDN+fmWEKnJqm9wrKFer4MjsgJudJimqPsd1MpAxKEDULNkyVjUioeZwH84Lv3YTnhXjz6DQcRAtE5tTCwSDQ==",
+  "dgSpecHash": "lDWCIoGuBZnsoEeebQlbo6punEtnZ+N6n/CJzmabiCudcP1uQerXzQBkuU9rvuS6nsHX/a4v4Z8+z65kLZAlqg==",
   "success": true,
-  "projectFilePath": "D:\\GitHub Repository\\AutoProAspNetCoreWithAngular\\src\\Server\\AutoPro.Common\\AutoPro.Common.csproj",
+  "projectFilePath": "D:\\GitHub Repository\\auto-pro\\server\\AutoPro.Common\\AutoPro.Common.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

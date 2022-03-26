@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "buqk3Z13RwYryYwc0ZbvU3PyPzHluQMJpalHgUKjGa/7LJxUtnSGXfbtMRIGTSt+VGfuHI0k7bEWqOTDw1W1Dg==",
+  "dgSpecHash": "AoA2Zt1tXi6qJo0Y8ZjFNwfb1twcnUIpCG2IW0u+pJnvsFgSiPpeAWBushxQBJKDUUvG0T8fYDzHZ90cG4hxug==",
   "success": true,
-  "projectFilePath": "D:\\GitHub Repository\\AutoProAspNetCoreWithAngular\\src\\Server\\AutoPro.Data\\AutoPro.Data.csproj",
+  "projectFilePath": "D:\\GitHub Repository\\auto-pro\\server\\AutoPro.Data\\AutoPro.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ivane\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\ivane\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

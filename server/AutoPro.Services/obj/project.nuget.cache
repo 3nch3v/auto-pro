@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dM84T/3fZ1mkXSc36U9tO6krX03CZdZTeRFcC0AsSsn6lSVoF+gt4IgsIwPcUGZiqURIoLsz5JFwbzD36rcPzw==",
+  "dgSpecHash": "xMPmTCmEEVbC1abm0WzNvAPMDLHAGDyVj38aQecMPU4kNi7cKjyi5ZGiFN8McqJepRv5Ns0AwFPpXORP2nEfSQ==",
   "success": true,
-  "projectFilePath": "D:\\GitHub Repository\\AutoProAspNetCoreWithAngular\\src\\Server\\AutoPro.Services\\AutoPro.Services.csproj",
+  "projectFilePath": "D:\\GitHub Repository\\auto-pro\\server\\AutoPro.Services\\AutoPro.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ivane\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\ivane\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.1\\microsoft.aspnetcore.cryptography.internal.6.0.1.nupkg.sha512",

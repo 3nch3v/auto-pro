@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub Repository\\AutoProAspNetCoreWithAngular\\src\\Server\\AutoPro.Common\\AutoPro.Common.csproj",
+      "projectUniqueName": "D:\\GitHub Repository\\auto-pro\\server\\AutoPro.Common\\AutoPro.Common.csproj",
       "projectName": "AutoPro.Common",
-      "projectPath": "D:\\GitHub Repository\\AutoProAspNetCoreWithAngular\\src\\Server\\AutoPro.Common\\AutoPro.Common.csproj",
+      "projectPath": "D:\\GitHub Repository\\auto-pro\\server\\AutoPro.Common\\AutoPro.Common.csproj",
       "packagesPath": "C:\\Users\\ivane\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub Repository\\AutoProAspNetCoreWithAngular\\src\\Server\\AutoPro.Common\\obj\\",
+      "outputPath": "D:\\GitHub Repository\\auto-pro\\server\\AutoPro.Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Shared\\NuGetPackages"

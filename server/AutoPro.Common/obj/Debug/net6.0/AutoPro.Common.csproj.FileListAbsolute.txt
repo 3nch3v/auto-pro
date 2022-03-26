@@ -34,3 +34,15 @@ D:\GitHub Repository\AutoProAspNetCoreWithAngular\src\Server\AutoPro.Common\obj\
 D:\GitHub Repository\AutoProAspNetCoreWithAngular\src\Server\AutoPro.Common\obj\Debug\net6.0\refint\AutoPro.Common.dll
 D:\GitHub Repository\AutoProAspNetCoreWithAngular\src\Server\AutoPro.Common\obj\Debug\net6.0\AutoPro.Common.pdb
 D:\GitHub Repository\AutoProAspNetCoreWithAngular\src\Server\AutoPro.Common\obj\Debug\net6.0\ref\AutoPro.Common.dll
+D:\GitHub Repository\auto-pro\server\AutoPro.Common\bin\Debug\net6.0\AutoPro.Common.deps.json
+D:\GitHub Repository\auto-pro\server\AutoPro.Common\bin\Debug\net6.0\AutoPro.Common.dll
+D:\GitHub Repository\auto-pro\server\AutoPro.Common\bin\Debug\net6.0\AutoPro.Common.pdb
+D:\GitHub Repository\auto-pro\server\AutoPro.Common\obj\Debug\net6.0\AutoPro.Common.csproj.AssemblyReference.cache
+D:\GitHub Repository\auto-pro\server\AutoPro.Common\obj\Debug\net6.0\AutoPro.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub Repository\auto-pro\server\AutoPro.Common\obj\Debug\net6.0\AutoPro.Common.AssemblyInfoInputs.cache
+D:\GitHub Repository\auto-pro\server\AutoPro.Common\obj\Debug\net6.0\AutoPro.Common.AssemblyInfo.cs
+D:\GitHub Repository\auto-pro\server\AutoPro.Common\obj\Debug\net6.0\AutoPro.Common.csproj.CoreCompileInputs.cache
+D:\GitHub Repository\auto-pro\server\AutoPro.Common\obj\Debug\net6.0\AutoPro.Common.dll
+D:\GitHub Repository\auto-pro\server\AutoPro.Common\obj\Debug\net6.0\refint\AutoPro.Common.dll
+D:\GitHub Repository\auto-pro\server\AutoPro.Common\obj\Debug\net6.0\AutoPro.Common.pdb
+D:\GitHub Repository\auto-pro\server\AutoPro.Common\obj\Debug\net6.0\ref\AutoPro.Common.dll

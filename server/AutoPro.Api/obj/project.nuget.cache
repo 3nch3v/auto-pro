@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JeaXVpDq+wPXYxLV0x0m+bp6HupJawiKt1+u/9cQN8VJgrLktZpbBO/e03g4maYguCLAVK3bhA6ZVGIhmKL7pw==",
+  "dgSpecHash": "PEMeJmQ/2NuT98MDWFVOYoBLHwfZX00Ye7iV5hdgkrx70suVLFOibtIjFV82vLgTVZF1ejRRmJSAkY5esko12Q==",
   "success": true,
-  "projectFilePath": "D:\\GitHub Repository\\AutoProAspNetCoreWithAngular\\src\\Server\\AutoPro.Api\\AutoPro.Api.csproj",
+  "projectFilePath": "D:\\GitHub Repository\\auto-pro\\server\\AutoPro.Api\\AutoPro.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ivane\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\ivane\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

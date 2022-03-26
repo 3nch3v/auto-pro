@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub Repository\\AutoProAspNetCoreWithAngular\\src\\Server\\AutoPro.Services\\AutoPro.Services.csproj": {}
+    "D:\\GitHub Repository\\auto-pro\\server\\AutoPro.Services\\AutoPro.Services.csproj": {}
   },
   "projects": {
-    "D:\\GitHub Repository\\AutoProAspNetCoreWithAngular\\src\\Server\\AutoPro.Common\\AutoPro.Common.csproj": {
+    "D:\\GitHub Repository\\auto-pro\\server\\AutoPro.Common\\AutoPro.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub Repository\\AutoProAspNetCoreWithAngular\\src\\Server\\AutoPro.Common\\AutoPro.Common.csproj",
+        "projectUniqueName": "D:\\GitHub Repository\\auto-pro\\server\\AutoPro.Common\\AutoPro.Common.csproj",
         "projectName": "AutoPro.Common",
-        "projectPath": "D:\\GitHub Repository\\AutoProAspNetCoreWithAngular\\src\\Server\\AutoPro.Common\\AutoPro.Common.csproj",
+        "projectPath": "D:\\GitHub Repository\\auto-pro\\server\\AutoPro.Common\\AutoPro.Common.csproj",
         "packagesPath": "C:\\Users\\ivane\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub Repository\\AutoProAspNetCoreWithAngular\\src\\Server\\AutoPro.Common\\obj\\",
+        "outputPath": "D:\\GitHub Repository\\auto-pro\\server\\AutoPro.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Shared\\NuGetPackages"
@@ -62,14 +62,14 @@
         }
       }
     },
-    "D:\\GitHub Repository\\AutoProAspNetCoreWithAngular\\src\\Server\\AutoPro.Data\\AutoPro.Data.csproj": {
+    "D:\\GitHub Repository\\auto-pro\\server\\AutoPro.Data\\AutoPro.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub Repository\\AutoProAspNetCoreWithAngular\\src\\Server\\AutoPro.Data\\AutoPro.Data.csproj",
+        "projectUniqueName": "D:\\GitHub Repository\\auto-pro\\server\\AutoPro.Data\\AutoPro.Data.csproj",
         "projectName": "AutoPro.Data",
-        "projectPath": "D:\\GitHub Repository\\AutoProAspNetCoreWithAngular\\src\\Server\\AutoPro.Data\\AutoPro.Data.csproj",
+        "projectPath": "D:\\GitHub Repository\\auto-pro\\server\\AutoPro.Data\\AutoPro.Data.csproj",
         "packagesPath": "C:\\Users\\ivane\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub Repository\\AutoProAspNetCoreWithAngular\\src\\Server\\AutoPro.Data\\obj\\",
+        "outputPath": "D:\\GitHub Repository\\auto-pro\\server\\AutoPro.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Shared\\NuGetPackages"
@@ -90,8 +90,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\GitHub Repository\\AutoProAspNetCoreWithAngular\\src\\Server\\AutoPro.Common\\AutoPro.Common.csproj": {
-                "projectPath": "D:\\GitHub Repository\\AutoProAspNetCoreWithAngular\\src\\Server\\AutoPro.Common\\AutoPro.Common.csproj"
+              "D:\\GitHub Repository\\auto-pro\\server\\AutoPro.Common\\AutoPro.Common.csproj": {
+                "projectPath": "D:\\GitHub Repository\\auto-pro\\server\\AutoPro.Common\\AutoPro.Common.csproj"
               }
             }
           }
@@ -154,14 +154,14 @@
         }
       }
     },
-    "D:\\GitHub Repository\\AutoProAspNetCoreWithAngular\\src\\Server\\AutoPro.Services\\AutoPro.Services.csproj": {
+    "D:\\GitHub Repository\\auto-pro\\server\\AutoPro.Services\\AutoPro.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub Repository\\AutoProAspNetCoreWithAngular\\src\\Server\\AutoPro.Services\\AutoPro.Services.csproj",
+        "projectUniqueName": "D:\\GitHub Repository\\auto-pro\\server\\AutoPro.Services\\AutoPro.Services.csproj",
         "projectName": "AutoPro.Services",
-        "projectPath": "D:\\GitHub Repository\\AutoProAspNetCoreWithAngular\\src\\Server\\AutoPro.Services\\AutoPro.Services.csproj",
+        "projectPath": "D:\\GitHub Repository\\auto-pro\\server\\AutoPro.Services\\AutoPro.Services.csproj",
         "packagesPath": "C:\\Users\\ivane\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub Repository\\AutoProAspNetCoreWithAngular\\src\\Server\\AutoPro.Services\\obj\\",
+        "outputPath": "D:\\GitHub Repository\\auto-pro\\server\\AutoPro.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Shared\\NuGetPackages"
@@ -182,11 +182,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\GitHub Repository\\AutoProAspNetCoreWithAngular\\src\\Server\\AutoPro.Common\\AutoPro.Common.csproj": {
-                "projectPath": "D:\\GitHub Repository\\AutoProAspNetCoreWithAngular\\src\\Server\\AutoPro.Common\\AutoPro.Common.csproj"
+              "D:\\GitHub Repository\\auto-pro\\server\\AutoPro.Common\\AutoPro.Common.csproj": {
+                "projectPath": "D:\\GitHub Repository\\auto-pro\\server\\AutoPro.Common\\AutoPro.Common.csproj"
               },
-              "D:\\GitHub Repository\\AutoProAspNetCoreWithAngular\\src\\Server\\AutoPro.Data\\AutoPro.Data.csproj": {
-                "projectPath": "D:\\GitHub Repository\\AutoProAspNetCoreWithAngular\\src\\Server\\AutoPro.Data\\AutoPro.Data.csproj"
+              "D:\\GitHub Repository\\auto-pro\\server\\AutoPro.Data\\AutoPro.Data.csproj": {
+                "projectPath": "D:\\GitHub Repository\\auto-pro\\server\\AutoPro.Data\\AutoPro.Data.csproj"
               }
             }
           }
