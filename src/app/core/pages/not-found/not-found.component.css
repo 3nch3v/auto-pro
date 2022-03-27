@@ -1,8 +1,10 @@
-.not-found-container{
-    max-width: 86%;
-    margin: 10px auto 0 auto;
-}
-
-.not-found-container > img {
-    max-width: 100%;
-}
+.not-found-container {
+    height: 66vh;
+    max-width: 1320px;
+    margin: 0 auto;
+    background-image: url('../../../../assets/img/404.jpg');
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }

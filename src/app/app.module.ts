@@ -9,6 +9,7 @@ import { CoreModule } from './core/core.module';
 import { BrowserStorageService } from './services/storage.service';
 import { AuthenticationModule } from './authentication/authentication.module';
 import { RouterModule } from '@angular/router';
+import { TokenInterceptorService } from './services/token-interceptor.service';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { RouterModule } from '@angular/router';
   ],
   providers: [
     AuthenticationService,
-    BrowserStorageService
+    BrowserStorageService,
+    TokenInterceptorService
   ],
   bootstrap: [AppComponent]
 })

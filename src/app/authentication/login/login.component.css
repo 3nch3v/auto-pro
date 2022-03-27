@@ -1,0 +1,39 @@
+.login {
+    margin: 50px auto;
+    min-height:100%;
+    position:relative;
+    max-width: 1320px;
+    height: calc(100vh - 434px);
+}
+
+.btn {
+    padding: 8px 24px;
+  }
+
+.bg-primary {
+    background-color: #6C55F9 !important;
+  }
+  a.bg-primary:hover, a.bg-primary:focus {
+    background-color: #5d47eb !important;
+  }
+
+  .text-primary {
+    color: #6C55F9 !important;
+  }
+  
+  a.text-primary:hover, a.text-primary:focus {
+    color: #5d47eb !important;
+  }
+
+  .btn-primary {
+    color: #fff;
+    background-color: #6C55F9;
+    border-color: transparent;
+  }
+
+  @media screen and (max-width: 900px) {
+    .login {
+      margin-left: 20px;
+  }
+  }
+  

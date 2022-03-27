@@ -6,19 +6,22 @@ import { LoginResponse } from '../dtos/user/LoginResponse';
 import { Loginrequest } from '../dtos/user/LoginRequest';
 import { RegisterRequest } from '../dtos/user/RegisterRequest';
 import { Profile } from '../dtos/user/Profile';
+import { MessageResponse } from '../dtos/user/MesssageResponse';
+import { BrowserStorageService } from './storage.service';
 
 @Injectable({
   providedIn: 'root'
 })
-export class AuthenticationService   {
 
-  constructor(private readonly httpClient: HttpClient) { }
+export class AuthenticationService   {
+  constructor(private readonly httpClient: HttpClient,
+              private readonly storage: BrowserStorageService ) { }
 
     login$(request: Loginrequest): Observable<LoginResponse> {
       return this.httpClient.post(`${environment.host}/users/login`, request);
     }
 
-    register$(request: RegisterRequest): Observable<any> {
+    register$(request: RegisterRequest): Observable<MessageResponse> {
       return this.httpClient.post(`${environment.host}/users/register`, request);
     }
 
@@ -26,9 +29,11 @@ export class AuthenticationService   {
       return this.httpClient.get<Profile>(`${environment.host}/users/profile`, { withCredentials: true });
     }
 
-    isLogged(): boolean {
-      //TODO
-      return true;
+    isAuthenticated(): boolean {
+      if(this.storage.getItem<string>('token')) {
+        return true;
+      }
+      return false;
     }
 
     logout(){

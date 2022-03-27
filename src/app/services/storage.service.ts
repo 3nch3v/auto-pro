@@ -3,6 +3,7 @@ import { Injectable } from '@angular/core';
 interface IStorageService {
   setItem<T>(key: string, item: T): T;
   getItem<T>(key: string): T;
+  removeItemByKey(key: string): void;
 }
 
 @Injectable({
@@ -16,6 +17,10 @@ export class BrowserStorageService implements IStorageService {
     const str = typeof item === 'string' ? item : JSON.stringify(item);
     this.localStorage.setItem(key, str);
     return item;
+  }
+
+  removeItemByKey(key: string): void {
+    this.localStorage.removeItem(key);
   }
 
   getItem<T>(key: string): T {
