@@ -11,7 +11,7 @@ import { AuthenticationService } from 'src/app/services/authentication.service';
 })
 export class RegisterComponent {
   registerForm: FormGroup;
-
+  siginSuccessful: boolean = true;
   constructor(private readonly form: FormBuilder,
               private readonly router: Router,
               private readonly authService: AuthenticationService) {
@@ -37,22 +37,26 @@ export class RegisterComponent {
     request.email = this.registerForm.value.email;
     request.password = this.registerForm.value.password;
     request.confirmPassword = this.registerForm.value.confirmPassword;
-
-    let result = this.authService.register$(request).subscribe(response => response);
-
-    console.log(result);
-    //TODO if successful  redirectTo Login
+    this.authService.register$(request).subscribe({
+      next: () => {
+        this.siginSuccessful = true;
+        this.router.navigate(['/login']);
+      },
+      error: () => {
+        this.siginSuccessful = false;
+      },
+    });
   }
 
   get email() {
     return this.registerForm.get('email');
-  }
+  };
 
   get password() {
     return this.registerForm.get('password');
-  }
+  };
 
   get confirmPassword() {
     return this.registerForm.get('confirmPassword');
-  }
+  };
 }

@@ -33,6 +33,9 @@
                         <p class="text-danger">Confirm password does not match password.</p>
                     </div>
                 </div>
+                <div *ngIf="!siginSuccessful">
+                    <p class="text-danger">Registration failed. Please try again with another email.</p>
+                </div>
                 <div class="row form-group mt-4">
                     <div class="col-md-12">
                         <input type="submit" value="Sign in" class="btn btn-primary">

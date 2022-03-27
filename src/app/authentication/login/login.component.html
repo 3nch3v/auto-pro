@@ -23,6 +23,10 @@
                     </div>
                 </div>
 
+                <div *ngIf="!loginSuccessful">
+                    <p class="text-danger mt-2">Incorrect email ot password.</p>
+                </div>
+
                 <div class="row form-group mt-4">
                     <div class="col-md-12">
                         <input type="submit" value="Login" class="btn btn-primary">

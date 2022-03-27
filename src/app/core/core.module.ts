@@ -27,17 +27,3 @@ import { NotFoundComponent } from './pages/not-found/not-found.component';
   providers: []
 })
 export class CoreModule { }
-
-// export class CoreModule {
-//   static forRoot(): ModuleWithProviders<CoreModule> {
-//     return {
-//       ngModule: CoreModule,
-//       providers: [
-//         UserService,
-//         ThemeService,
-//         storageServiceProvider,
-//         PostService
-//       ]
-//     }
-//   }
-// }

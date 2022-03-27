@@ -8,6 +8,7 @@ import { RegisterRequest } from '../dtos/user/RegisterRequest';
 import { Profile } from '../dtos/user/Profile';
 import { MessageResponse } from '../dtos/user/MesssageResponse';
 import { BrowserStorageService } from './storage.service';
+import { Router } from '@angular/router';
 
 @Injectable({
   providedIn: 'root'
@@ -15,7 +16,8 @@ import { BrowserStorageService } from './storage.service';
 
 export class AuthenticationService   {
   constructor(private readonly httpClient: HttpClient,
-              private readonly storage: BrowserStorageService ) { }
+              private readonly storage: BrowserStorageService,
+              private readonly router: Router ) { }
 
     login$(request: Loginrequest): Observable<LoginResponse> {
       return this.httpClient.post(`${environment.host}/users/login`, request);
@@ -36,7 +38,9 @@ export class AuthenticationService   {
       return false;
     }
 
-    logout(){
-      //delete token
+    logout(): void {
+      this.storage.removeItemByKey('email');
+      this.storage.removeItemByKey('token');
+      this.router.navigate(['/login']);
     }
 } 
