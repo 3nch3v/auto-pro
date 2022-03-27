@@ -1,0 +1,8 @@
+.not-found-container{
+    max-width: 86%;
+    margin: 10px auto 0 auto;
+}
+
+.not-found-container > img {
+    max-width: 100%;
+}

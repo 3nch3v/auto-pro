@@ -1,21 +1,43 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
+
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { HomePageComponent } from './pages/home-page/home-page.component';
+import { NotFoundComponent } from './pages/not-found/not-found.component';
 
 
 
 @NgModule({
   declarations: [
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    HomePageComponent,
+    NotFoundComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   exports: [
     HeaderComponent,
     FooterComponent
-  ]
+  ],
+  providers: []
 })
 export class CoreModule { }
+
+// export class CoreModule {
+//   static forRoot(): ModuleWithProviders<CoreModule> {
+//     return {
+//       ngModule: CoreModule,
+//       providers: [
+//         UserService,
+//         ThemeService,
+//         storageServiceProvider,
+//         PostService
+//       ]
+//     }
+//   }
+// }

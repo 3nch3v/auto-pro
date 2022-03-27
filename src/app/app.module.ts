@@ -19,8 +19,9 @@ import { RouterModule } from '@angular/router';
     RouterModule,
     AppRoutingModule,
     HttpClientModule,
-    CoreModule,
+    CoreModule, //forRoot(),
     AuthenticationModule,
+    //AdsModule,
   ],
   providers: [
     AuthenticationService,
