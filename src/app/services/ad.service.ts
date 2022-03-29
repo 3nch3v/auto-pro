@@ -21,7 +21,7 @@ export class AdService implements IAdService {
       return this.httpClient.get<Ad[]>(`${environment.host}/ads/random`, { withCredentials: true });
     };
 
-    register$(request: CreateAdRequest): Observable<MessageResponse> {
+    create$(request: CreateAdRequest): Observable<MessageResponse> {
       return this.httpClient.post(`${environment.host}/ads/create`, request);
     };
 }

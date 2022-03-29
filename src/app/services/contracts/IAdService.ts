@@ -5,5 +5,5 @@ import { MessageResponse } from "../../dtos/user/MesssageResponse";
 
 export interface IAdService {
     getRandomAds$() : Observable<Ad[]>;
-    register$(request: CreateAdRequest): Observable<MessageResponse>;
+    create$(request: CreateAdRequest): Observable<MessageResponse>;
 }
