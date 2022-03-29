@@ -1,4 +1,4 @@
-﻿namespace AutoPro.Services.Contracts
+namespace AutoPro.Services.Contracts
 {
     using AutoPro.Common.Models.Ad;
 
@@ -10,8 +10,10 @@
 
         Task DeactivateAsync(int id, string userId);
 
-        SingleAdResponse GetSigleAsync(int id);
+        AdResponse GetSigleAsync(int id);
 
         AllAdsResponse GetAllAsync(int page);
-    }
+
+        IList<AdListingModel> GetRandom();
+  }
 }

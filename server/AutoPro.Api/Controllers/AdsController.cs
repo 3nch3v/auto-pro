@@ -1,4 +1,4 @@
-﻿namespace AutoPro.Web.Controllers
+namespace AutoPro.Web.Controllers
 {
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Authorization;
@@ -52,7 +52,7 @@
 
         [HttpGet]
         [Route("Sigle/{id}")]
-        public ActionResult<SingleAdResponse> GetSigle(int id)
+        public ActionResult<AdResponse> GetSigle(int id)
         {
             var ad = _adService.GetSigleAsync(id);
 
@@ -60,12 +60,21 @@
         }
 
         [HttpGet]
-        [Route("All")]
+        [Route("All")]  // {}
         public ActionResult<AllAdsResponse> GetAll(int page = 1)
         {
             var ads = _adService.GetAllAsync(page);
 
             return Ok(ads);
+        }
+
+        [HttpGet]
+        [Route("Random")]
+        public ActionResult<IList<AdListingModel>> GetRandom()
+        {
+          var ads = _adService.GetRandom();
+
+          return Ok(ads);
         }
     }
 }

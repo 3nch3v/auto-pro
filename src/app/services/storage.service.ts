@@ -1,10 +1,5 @@
 import { Injectable } from '@angular/core';
-
-interface IStorageService {
-  setItem<T>(key: string, item: T): T;
-  getItem<T>(key: string): T;
-  removeItemByKey(key: string): void;
-}
+import { IStorageService } from './contracts/IStorageService';
 
 @Injectable({
   providedIn: 'root'

@@ -9,12 +9,13 @@ import { Profile } from '../dtos/user/Profile';
 import { MessageResponse } from '../dtos/user/MesssageResponse';
 import { BrowserStorageService } from './storage.service';
 import { Router } from '@angular/router';
+import { IAuthenticationService } from './contracts/IAuthenticationService';
 
 @Injectable({
   providedIn: 'root'
 })
 
-export class AuthenticationService   {
+export class AuthenticationService implements IAuthenticationService  {
   constructor(private readonly httpClient: HttpClient,
               private readonly storage: BrowserStorageService,
               private readonly router: Router ) { }

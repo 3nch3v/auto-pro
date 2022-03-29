@@ -1,6 +1,6 @@
-﻿namespace AutoPro.Common.Models.Ad
+namespace AutoPro.Common.Models.Ad
 {
-    public class SingleAdResponse
+    public class AdResponse
     {
         public int Id { get; set; }
 

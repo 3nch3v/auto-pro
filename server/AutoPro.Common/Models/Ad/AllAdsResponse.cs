@@ -1,4 +1,4 @@
-﻿namespace AutoPro.Common.Models.Ad
+namespace AutoPro.Common.Models.Ad
 {
     public class AllAdsResponse
     {
@@ -16,6 +16,6 @@
 
         public bool HasNextPage => Page < PagesCount;
 
-        public ICollection<SingleAdResponse>? Ads { get; set; }
+        public ICollection<AdListingModel>? Ads { get; set; }
     }
 }
