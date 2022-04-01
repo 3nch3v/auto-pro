@@ -8,11 +8,11 @@ namespace AutoPro.Web.Controllers
     using AutoPro.Services.Contracts;
     using AutoPro.Common.Models.Ad;
 
-    public class AdsController : ApiController
+    public class CarsController : ApiController
     {
         private readonly IAdService _adService;
 
-        public AdsController(IAdService adService)
+        public CarsController(IAdService adService)
         {
             _adService = adService;
         }
@@ -26,6 +26,15 @@ namespace AutoPro.Web.Controllers
             await _adService.CreateAdAsync(request, userId);
 
             return Ok(new { message = "An ad was successful created." });
+        }
+
+        [HttpGet]
+        [Route("Random")]
+        public ActionResult<IList<AdListingModel>> GetRandom()
+        {
+          var ads = _adService.GetRandom();
+
+          return Ok(ads);
         }
 
         [Authorize]
@@ -66,15 +75,6 @@ namespace AutoPro.Web.Controllers
             var ads = _adService.GetAllAsync(page);
 
             return Ok(ads);
-        }
-
-        [HttpGet]
-        [Route("Random")]
-        public ActionResult<IList<AdListingModel>> GetRandom()
-        {
-          var ads = _adService.GetRandom();
-
-          return Ok(ads);
         }
     }
 }

@@ -1,29 +1,36 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
-
-
+import { CreateAdComponent } from './pages/create-ad/create-ad.component';
+import { AllComponent } from './pages/all/all.component';
 
 @NgModule({
   declarations: [
     HeaderComponent,
     FooterComponent,
     HomePageComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    CreateAdComponent,
+    AllComponent
   ],
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   exports: [
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    CreateAdComponent
   ],
   providers: []
 })
+
 export class CoreModule { }

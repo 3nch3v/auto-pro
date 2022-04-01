@@ -13,7 +13,10 @@
     "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,
-    "experimentalDecorators": true,
+     /* Experimental Options */
+     "experimentalDecorators": true, 
+     "emitDecoratorMetadata": true, 
+     /* Advanced Options */
     "moduleResolution": "node",
     "importHelpers": true,
     "target": "es2017",

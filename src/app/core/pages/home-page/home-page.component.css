@@ -137,6 +137,11 @@
     max-width: 460px;
   }
   
+.car-img{
+  max-width: 100%;
+  max-height: 200px;
+}
+
   @media (min-width: 992px) {
     .img-stack-element {
       transform: translateX(50px);

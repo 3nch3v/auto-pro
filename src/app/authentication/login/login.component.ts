@@ -1,10 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import {
-  FormBuilder,
-  FormControl,
-  FormGroup,
-  Validators,
-} from '@angular/forms';
+import { Component } from '@angular/core';
+import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { Loginrequest } from 'src/app/dtos/user/LoginRequest';
 import { AuthenticationService } from 'src/app/services/authentication.service';
@@ -15,6 +10,7 @@ import { BrowserStorageService } from 'src/app/services/storage.service';
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css'],
 })
+
 export class LoginComponent {
   loginForm: FormGroup;
   loginSuccessful: boolean = true;

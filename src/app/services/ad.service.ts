@@ -18,10 +18,10 @@ export class AdService implements IAdService {
               private readonly router: Router) { }
     
     getRandomAds$() : Observable<Ad[]> {
-      return this.httpClient.get<Ad[]>(`${environment.host}/ads/random`, { withCredentials: true });
+      return this.httpClient.get<Ad[]>(`${environment.host}/cars/random`, { withCredentials: false });
     };
 
     create$(request: CreateAdRequest): Observable<MessageResponse> {
-      return this.httpClient.post(`${environment.host}/ads/create`, request);
+      return this.httpClient.post(`${environment.host}/cars/create`, request);
     };
 }

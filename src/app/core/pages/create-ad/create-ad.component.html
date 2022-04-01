@@ -1,0 +1,120 @@
+<div class="create-ad">
+    <div class="row w-100">
+        <div class="col-lg-4 col-md-8 col-sm-mb-10">
+            <form class="contact-form" [formGroup]="createAdForm" (ngSubmit)="createAd()">
+                <h2 class="mb-4 font-weight-medium text-secondary">Create new ad in AutoPro!</h2>
+
+                <div class="row form-group">
+                    <div class="col-md-12">
+                        <label class="text-black" for="title">Title</label>
+                        <input type="text" id="title" class="form-control" formControlName="title">
+                    </div>
+                    <div *ngIf="title?.touched && title?.errors?.['required']">
+                        <p class="text-danger">Title field is rerqired. Length must be between 2 and 50 characters.</p>
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col-md-12">
+                        <label class="text-black" for="description">Description</label>
+                        <textarea type="text" id="description" class="form-control" formControlName="description" rows="3"></textarea>
+                    </div>
+                    <div *ngIf="description?.touched && description?.errors?.['required']">
+                        <p class="text-danger">Make field is rerqired. Length must be between 10 and 500 characters.</p>
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col-md-12">
+                        <label class="text-black" for="Contact">Contact</label>
+                        <input type="text" id="contact" class="form-control" formControlName="contact">
+                    </div>
+                    <div *ngIf="contact?.touched && contact?.errors?.['required']">
+                        <p class="text-danger">Make field is rerqired. Length must be between 6 and 30 characters.</p>
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col-md-12">
+                        <label class="text-black" for="make">Make</label>
+                        <input type="text" id="make" class="form-control" formControlName="make">
+                    </div>
+                    <div *ngIf="make?.touched && make?.errors?.['required']">
+                        <p class="text-danger">Make field is rerqired. Length must be between 2 and 20 characters.</p>
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col-md-12">
+                        <label class="text-black" for="model">Model</label>
+                        <input type="text" id="model" class="form-control" formControlName="model">
+                    </div>
+                    <div *ngIf="model?.touched && model?.errors?.['required']">
+                        <p class="text-danger">Model field is rerqired. Length must be between 2 and 20 characters.</p>
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col-md-12">
+                        <label class="text-black" for="model">Price</label>
+                        <input type="number" id="model" class="form-control" formControlName="price">
+                    </div>
+                    <div *ngIf="price?.touched && price?.errors?.['required']">
+                        <p class="text-danger">Price field is rerqired and should be zero or positive number.</p>
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col-md-12">
+                        <label class="text-black" for="kilometers">Kilometers</label>
+                        <input type="number" id="kilometers" class="form-control" formControlName="kilometers">
+                    </div>
+                    <div *ngIf="kilometers?.touched && kilometers?.errors?.['required']">
+                        <p class="text-danger">Kilometers field is rerqired.</p>
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col-md-12">
+                        <label class="text-black" for="horsePower">HP</label>
+                        <input type="number" id="horsePower" class="form-control" formControlName="horsePower">
+                    </div>
+                    <div *ngIf="horsePower?.touched && horsePower?.errors?.['required']">
+                        <p class="text-danger">Horse power field is rerqired.</p>
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col-md-12">
+                        <label class="text-black" for="year">Year</label>
+                        <input type="number" id="year" class="form-control" formControlName="year">
+                    </div>
+                    <div *ngIf="year?.touched && year?.errors?.['required']">
+                        <p class="text-danger">Year field is rerqired. Rirst registration after 1900.</p>
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col-md-12">
+                        <label class="text-black" for="pictureUrl">Picture URL</label>
+                        <input type="test" id="pictureUrl" class="form-control" formControlName="pictureUrl">
+                    </div>
+                    <div *ngIf="pictureUrl?.touched && pictureUrl?.errors?.['required']">
+                        <p class="text-danger">Picture URL field is rerqired. Length must be between 6 and 2048 characters.</p>
+                    </div>
+                </div>
+
+
+                <div *ngIf="!isCreatedSuccessful">
+                    <p class="text-danger mt-2">Create ad failed. Please try again.</p>
+                </div>
+
+                <div class="row form-group mt-4">
+                    <div class="col-md-12">
+                        <input type="submit" value="Submit" class="btn btn-primary">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

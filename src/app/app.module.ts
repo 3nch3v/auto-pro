@@ -23,7 +23,6 @@ import { AdService } from './services/ad.service';
     HttpClientModule,
     CoreModule,
     AuthenticationModule,
-    //AdsModule,
   ],
   providers: [
     AuthenticationService,
