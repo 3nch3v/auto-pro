@@ -21,13 +21,18 @@
         <div class="col-lg-3 py-3">
             <h5>Newsletter</h5>
             <p>Get updates, news or events on your mail.</p>
-            <form action="#">
-              <input type="text" class="form-control" placeholder="Enter your email..">
+            <form [formGroup]="subscribeForm" (ngSubmit)="subscribe()">
+              <input id="email" type="email" class="form-control" placeholder="Enter your email.." formControlName="email" (change)="onChanged()">
               <button type="submit" class="col-12 btn btn-secondary btn-block mt-2">Subscribe</button>
             </form>
-          </div>
+            <div *ngIf="email?.touched && email?.errors?.['required']">
+              <p class="text-danger text-center mt-2">Please enter valid email.</p>
+            </div>
+            <div *ngIf="isSuccessful && !email?.errors?.['required'] && showMsg">
+              <p class="text-success text-center mt-2">{{subscribeMsg}}</p>
+            </div>
+          </div>         
       </div>
-
       <p class="text-center" id="copyright">Copyright &copy; 2022 Auto Pro Sells.</p>
     </div>
   </footer>

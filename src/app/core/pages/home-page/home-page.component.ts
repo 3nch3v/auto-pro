@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { Ad } from 'src/app/dtos/ad/Ad';
+import { AdResponse } from 'src/app/dtos/ad/AdResponse';
 import { AdService } from 'src/app/services/ad.service';
 
 @Component({
@@ -9,7 +9,7 @@ import { AdService } from 'src/app/services/ad.service';
   styleUrls: ['./home-page.component.css']
 })
 export class HomePageComponent implements OnInit {
-  cars: Ad[] = [];
+  cars: AdResponse[] = [];
   constructor(private readonly router: Router,
               private readonly adService: AdService) { }
 

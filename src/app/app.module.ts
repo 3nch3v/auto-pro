@@ -11,6 +11,7 @@ import { AuthenticationModule } from './authentication/authentication.module';
 import { RouterModule } from '@angular/router';
 import { TokenInterceptorService } from './services/token-interceptor.service';
 import { AdService } from './services/ad.service';
+import { SubscribeService } from './services/subscribe.service';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { AdService } from './services/ad.service';
     AuthenticationService,
     BrowserStorageService,
     AdService,
+    SubscribeService,
     TokenInterceptorService,
     {
       provide: HTTP_INTERCEPTORS,

@@ -1,6 +1,6 @@
-import { Ad } from "./Ad";
+import { AdResponse } from "./AdResponse";
 
-export class AllAds {
+export class AllAdsResponse {
     adsCount?: number;
     pagesCount?: number;
     page?: number; 
@@ -8,5 +8,5 @@ export class AllAds {
     nextPage?: number;
     hasPreviousPage?: boolean;
     hasNextPage?: boolean;
-    ads?: Ad[];
+    ads?: AdResponse[];
 }

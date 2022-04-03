@@ -7,8 +7,7 @@ import { AuthenticationService } from 'src/app/services/authentication.service';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-  constructor(private readonly authService: AuthenticationService) { 
-  }
+  constructor(private readonly authService: AuthenticationService) { }
 
   authView(): boolean {
     return this.authService.isAuthenticated();

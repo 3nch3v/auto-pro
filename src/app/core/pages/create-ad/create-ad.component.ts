@@ -83,7 +83,7 @@ export class CreateAdComponent {
     this.adService.create$(request).subscribe({
       next: () => {
         this.isCreatedSuccessful = true;
-        this.router.navigate(['/cars']);
+        this.router.navigate(['/all']);
       },
       error: (e) => {
         this.isCreatedSuccessful = false;

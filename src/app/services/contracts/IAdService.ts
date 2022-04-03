@@ -1,9 +1,9 @@
 import { Observable } from "rxjs/internal/Observable";
-import { Ad } from "../../dtos/ad/Ad";
+import { AdResponse } from "../../dtos/ad/AdResponse";
 import { CreateAdRequest } from "../../dtos/ad/CreateAdRequest";
 import { MessageResponse } from "../../dtos/user/MesssageResponse";
 
 export interface IAdService {
-    getRandomAds$() : Observable<Ad[]>;
+    getRandomAds$() : Observable<AdResponse[]>;
     create$(request: CreateAdRequest): Observable<MessageResponse>;
 }

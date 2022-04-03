@@ -1,4 +1,4 @@
-export class Ad {
+export class AdResponse {
     id?: number;
     make?: string;
     model?: string;

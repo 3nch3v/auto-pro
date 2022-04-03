@@ -43,5 +43,12 @@ namespace AutoPro.Api.Controllers
 
       return Ok(response);
     }
+
+    [HttpPost]
+    [Route("Subscribe")]
+    public ActionResult<ProfileResponse> NewsletterSubscribe(SubscribeRequest email)
+    {
+      return Ok(new { message = "Successfully subscribed." });
+    }
   }
 }

@@ -18,7 +18,7 @@
         <div class="page-section">
             <div class="container">
                 <div class="row">
-                    <div *ngFor="let car of cars" class="d-flex align-items-stretch col-4">
+                    <div *ngFor="let car of cars" class="d-flex align-items-stretch col-12 col-xs-12 col-md-4">
                         <div class="col-12" id={{car.id}}>
                             <div class="card-service wow fadeInUp">
                                 <div class="header">
@@ -26,7 +26,7 @@
                                 </div>
                                 <div class="body">
                                     <h5 class="text-secondary">{{car.make}} {{car.model}}</h5>
-                                    <p>{{car.year}} for only {{car.price}}</p>
+                                    <p>{{car.year}} for only {{car.price}} EUR</p>
                                     <a href="service.html" class="btn btn-primary">Details</a>
                                 </div>
                             </div>
