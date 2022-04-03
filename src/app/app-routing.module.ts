@@ -5,6 +5,7 @@ import { NotFoundComponent } from "./core/pages/not-found/not-found.component";
 import { CreateAdComponent } from "./core/pages/create-ad/create-ad.component"
 import { AllComponent } from "./core/pages/all/all.component";
 import { DetailsComponent } from './core/pages/details/details.component';
+import { AuthGuard } from './services/auth.guard.service';
 
 const routes: Routes = [
   {
@@ -18,6 +19,7 @@ const routes: Routes = [
   },
   {
     path: 'create',
+    canActivate: [AuthGuard],
     component: CreateAdComponent
   },
   {

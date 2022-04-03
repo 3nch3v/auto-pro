@@ -14,6 +14,7 @@ namespace AutoPro.Services
   using AutoPro.Common.Models.User;
   using Microsoft.AspNetCore.Identity;
   using AutoPro.Data;
+  using AutoPro.Common.Models.Ad;
 
   public class UserService : IUserService
   {
@@ -82,9 +83,18 @@ namespace AutoPro.Services
         throw new InvalidOperationException("Bad request. User not found");
       }
 
-
       var response = new ProfileResponse
       {
+        Ads = _dbContext.Advertisements
+          .Where(x => x.UserId == user.Id)
+          .Select(x => new ProfileAdListingModel
+          {
+            Id = x.Id,
+            IsActive = x.IsActive,
+            Title = x.Title,
+            Date = x.Date,
+          })
+          .ToList(),
       };
 
       return response;

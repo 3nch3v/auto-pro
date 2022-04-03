@@ -6,8 +6,8 @@ import { AdResponse } from '../dtos/ad/AdResponse';
 import { Observable } from 'rxjs/internal/Observable';
 import { CreateAdRequest } from '../dtos/ad/CreateAdRequest';
 import { MessageResponse } from '../dtos/user/MesssageResponse';
-import { AllAdsResponse } from '../dtos/ad/AllAdsresponse';
 import { DetailsResponse } from '../dtos/ad/DetailsResponse';
+import { AllAdsResponse } from '../dtos/ad/AllAdsResponse';
 
 @Injectable({
   providedIn: 'root'
@@ -31,5 +31,13 @@ export class AdService implements IAdService {
 
     create$(request: CreateAdRequest): Observable<MessageResponse> {
       return this.httpClient.post(`${environment.host}/cars/create`, request);
+    };
+
+    delete$(id?: number): Observable<MessageResponse> {
+      return this.httpClient.delete(`${environment.host}/cars/delete/${id}`);
+    };
+
+    deactivate$(id?: number): Observable<MessageResponse> {
+      return this.httpClient.get(`${environment.host}/cars/deactivate/${id}`);
     };
 }

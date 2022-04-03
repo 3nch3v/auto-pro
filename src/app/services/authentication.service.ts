@@ -1,14 +1,14 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Router } from '@angular/router';
 import { Observable } from 'rxjs';
 import { environment } from '../../environments/environment';
 import { LoginResponse } from '../dtos/user/LoginResponse';
 import { Loginrequest } from '../dtos/user/LoginRequest';
 import { RegisterRequest } from '../dtos/user/RegisterRequest';
-import { Profile } from '../dtos/user/Profile';
+import { ProfileResponse } from '../dtos/user/ProfileResponse';
 import { MessageResponse } from '../dtos/user/MesssageResponse';
 import { BrowserStorageService } from './storage.service';
-import { Router } from '@angular/router';
 import { IAuthenticationService } from './contracts/IAuthenticationService';
 
 @Injectable({
@@ -28,8 +28,8 @@ export class AuthenticationService implements IAuthenticationService  {
       return this.httpClient.post(`${environment.host}/users/register`, request);
     }
 
-    profile$(): Observable<Profile> {
-      return this.httpClient.get<Profile>(`${environment.host}/users/profile`, { withCredentials: true });
+    profile$(): Observable<ProfileResponse> {
+      return this.httpClient.get<ProfileResponse>(`${environment.host}/users/profile`);
     }
 
     isAuthenticated(): boolean {

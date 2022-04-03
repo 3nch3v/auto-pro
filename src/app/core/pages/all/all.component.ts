@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
-import { AllAdsResponse } from 'src/app/dtos/ad/AllAdsresponse';
+import { AllAdsResponse } from 'src/app/dtos/ad/AllAdsResponse';
 import { AdService } from 'src/app/services/ad.service';
 
 @Component({
@@ -10,8 +9,7 @@ import { AdService } from 'src/app/services/ad.service';
 })
 export class AllComponent implements OnInit {
   adsResponse?: AllAdsResponse;
-  constructor(private readonly router: Router,
-              private readonly adService: AdService) { }
+  constructor(private readonly adService: AdService) { }
 
   ngOnInit(): void {
     this.adService.getAllAds$(1).subscribe({

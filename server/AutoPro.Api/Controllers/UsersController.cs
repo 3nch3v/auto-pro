@@ -34,7 +34,7 @@ namespace AutoPro.Api.Controllers
       return Ok(response);
     }
 
-    [HttpPost]
+    [HttpGet]
     [Route("Profile")]
     public ActionResult<ProfileResponse> Profile()
     {

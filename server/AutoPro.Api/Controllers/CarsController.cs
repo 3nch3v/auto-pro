@@ -56,7 +56,7 @@ namespace AutoPro.Web.Controllers
         }
 
         [Authorize]
-        [HttpPost]
+        [HttpDelete]
         [Route("Delete/{id:int}")]
         public async Task<ActionResult> Delete(int id)
         {
@@ -67,7 +67,7 @@ namespace AutoPro.Web.Controllers
         }
 
         [Authorize]
-        [HttpPost]
+        [HttpGet]
         [Route("Deactivate/{id:int}")]
         public async Task<ActionResult> Deactivate(int id)
         {
