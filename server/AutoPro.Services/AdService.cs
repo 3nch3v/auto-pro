@@ -70,15 +70,17 @@ namespace AutoPro.Services
 
     public AllAdsResponse GetAllAsync(int page)
     {
-      var ads = _dbContext.Advertisements
-          .Skip((page - 1) * 9)
-          .Take(9)
-          .ToList();
+      var query = _dbContext.Advertisements.AsQueryable();
+      var count = query.Count();
+
+      var ads = query.Skip((page - 1) * 6)
+        .Take(6)
+        .ToList();
 
       var allAdsResponse = new AllAdsResponse
       {
         Page = page,
-        AdsCount = 1,
+        AdsCount = count,
         Ads = new List<AdListingModel>(),
       };
 
@@ -132,7 +134,7 @@ namespace AutoPro.Services
         Id = ad.Id,
         Title = ad.Title,
         Description = ad.Description,
-        Date = ad.Date,
+        Date = ad.Date.ToString("f"),
         Contact = ad.Contact,
         IsActive = ad.IsActive,
         Make = ad.Auto.Make,

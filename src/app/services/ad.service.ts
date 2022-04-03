@@ -7,6 +7,7 @@ import { Observable } from 'rxjs/internal/Observable';
 import { CreateAdRequest } from '../dtos/ad/CreateAdRequest';
 import { MessageResponse } from '../dtos/user/MesssageResponse';
 import { AllAdsResponse } from '../dtos/ad/AllAdsresponse';
+import { DetailsResponse } from '../dtos/ad/DetailsResponse';
 
 @Injectable({
   providedIn: 'root'
@@ -20,8 +21,12 @@ export class AdService implements IAdService {
       return this.httpClient.get<AdResponse[]>(`${environment.host}/cars/random`, { withCredentials: false });
     };
 
-    getAllAds$() : Observable<AllAdsResponse> {
-      return this.httpClient.get<AllAdsResponse>(`${environment.host}/cars/all`, { withCredentials: false });
+    getAllAds$(page?: number) : Observable<AllAdsResponse> {
+      return this.httpClient.get<AllAdsResponse>(`${environment.host}/cars/all/${page}`, { withCredentials: false });
+    };
+
+    getById$(id?: number) : Observable<DetailsResponse> {
+      return this.httpClient.get<DetailsResponse>(`${environment.host}/cars/details/${id}`, { withCredentials: false });
     };
 
     create$(request: CreateAdRequest): Observable<MessageResponse> {

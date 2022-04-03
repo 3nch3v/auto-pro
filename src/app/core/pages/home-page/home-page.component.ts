@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
 import { AdResponse } from 'src/app/dtos/ad/AdResponse';
 import { AdService } from 'src/app/services/ad.service';
 
@@ -9,14 +8,13 @@ import { AdService } from 'src/app/services/ad.service';
   styleUrls: ['./home-page.component.css']
 })
 export class HomePageComponent implements OnInit {
-  cars: AdResponse[] = [];
-  constructor(private readonly router: Router,
-              private readonly adService: AdService) { }
+  ads: AdResponse[] = [];
+  constructor(private readonly adService: AdService) { }
 
   ngOnInit(): void {
     this.adService.getRandomAds$().subscribe({
       next: (response) => {
-        this.cars = response
+        this.ads = response
       },
       error: (e) => { },
     });

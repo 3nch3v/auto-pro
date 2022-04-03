@@ -8,7 +8,7 @@ namespace AutoPro.Common.Models.Ad
 
         public string? Description { get; set; }
 
-        public DateTime Date { get; set; }
+        public string Date { get; set; }
 
         public string? Contact { get; set; }
 

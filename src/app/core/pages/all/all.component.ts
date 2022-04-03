@@ -9,17 +9,25 @@ import { AdService } from 'src/app/services/ad.service';
   styleUrls: ['./all.component.css']
 })
 export class AllComponent implements OnInit {
-  carsResponse?: AllAdsResponse;
+  adsResponse?: AllAdsResponse;
   constructor(private readonly router: Router,
               private readonly adService: AdService) { }
 
   ngOnInit(): void {
-    this.adService.getAllAds$().subscribe({
+    this.adService.getAllAds$(1).subscribe({
       next: (response) => {
-        this.carsResponse = response
+        this.adsResponse = response
       },
       error: (e) => { },
     });
   }
 
+  navigate(page?: number) {
+    this.adService.getAllAds$(page).subscribe({
+      next: (response) => {
+        this.adsResponse = response
+      },
+      error: (e) => { },
+    });
+  }
 }

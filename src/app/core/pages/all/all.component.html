@@ -3,24 +3,41 @@
         <div class="page-section">
             <div class="container">
                 <div class="row">
-                    <div *ngFor="let car of carsResponse?.ads" class="d-flex align-items-stretch col-12 col-xs-12 col-md-4">
-                        <div class="col-12" id={{car.id}}>
+                    <div *ngFor="let ad of adsResponse?.ads" class="d-flex align-items-stretch col-12 col-xs-12 col-md-4">
+                        <div class="col-12" id={{ad.id}}>
                             <div class="card-service wow fadeInUp">
                                 <div class="header">
-                                    <img class="car-img" src={{car.pictureUrl}} alt={{car.make}}>
+                                    <img class="car-img" src={{ad.pictureUrl}} alt={{ad.make}}>
                                 </div>
                                 <div class="body">
-                                    <h5 class="text-secondary">{{car.make}} {{car.model}}</h5>
-                                    <p>{{car.year}} for only {{car.price}} EUR</p>
-                                    <a href="service.html" class="btn btn-primary">Details</a>
+                                    <h5 class="text-secondary">{{ad.make}} {{ad.model}}</h5>
+                                    <p>{{ad.year}} for only {{ad.price}} EUR</p>
+                                    <a [routerLink]="['/details', ad.id]" class="btn btn-primary">Details</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                    
                 </div>
             </div>
         </div>
     </div>
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center mb-5">
+          <li *ngIf="adsResponse?.hasPreviousPage" class="page-item">
+            <a class="page-link" href="javascript:void(0)" (click)="navigate(adsResponse?.previousPage)">Previous</a>
+          </li>
+          <li  *ngIf="adsResponse?.hasPreviousPage" class="page-item">
+              <a class="page-link" href="javascript:void(0)" (click)="navigate(adsResponse?.previousPage)">{{adsResponse?.previousPage}}</a>
+         </li>
+          <li class="page-item">
+              <a class="page-link text-dark" href="javascript:void(0)">{{adsResponse?.page}}</a>
+         </li>
+          <li *ngIf="adsResponse?.hasNextPage" class="page-item">
+              <a class="page-link" href="javascript:void(0)" (click)="navigate(adsResponse?.nextPage)">{{adsResponse?.nextPage}}</a>
+         </li>
+          <li *ngIf="adsResponse?.hasNextPage" class="page-item">
+            <a class="page-link" href="javascript:void(0)" (click)="navigate(adsResponse?.nextPage)">Next</a>
+          </li>
+        </ul>
+      </nav>
 </div>

@@ -18,16 +18,16 @@
         <div class="page-section">
             <div class="container">
                 <div class="row">
-                    <div *ngFor="let car of cars" class="d-flex align-items-stretch col-12 col-xs-12 col-md-4">
-                        <div class="col-12" id={{car.id}}>
+                    <div *ngFor="let ad of ads" class="d-flex align-items-stretch col-12 col-xs-12 col-md-4">
+                        <div class="col-12" id={{ad.id}}>
                             <div class="card-service wow fadeInUp">
                                 <div class="header">
-                                    <img class="car-img" src={{car.pictureUrl}} alt={{car.make}}>
+                                    <img class="car-img" src={{ad.pictureUrl}} alt={{ad.make}}>
                                 </div>
                                 <div class="body">
-                                    <h5 class="text-secondary">{{car.make}} {{car.model}}</h5>
-                                    <p>{{car.year}} for only {{car.price}} EUR</p>
-                                    <a href="service.html" class="btn btn-primary">Details</a>
+                                    <h5 class="text-secondary">{{ad.make}} {{ad.model}}</h5>
+                                    <p>{{ad.year}} for only {{ad.price}} EUR</p>
+                                    <a [routerLink]="['/details', ad.id]" class="btn btn-primary">Details</a>
                                 </div>
                             </div>
                         </div>

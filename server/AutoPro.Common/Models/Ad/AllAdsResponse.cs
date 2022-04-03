@@ -4,7 +4,7 @@ namespace AutoPro.Common.Models.Ad
     {
         public int AdsCount { get; set; }
 
-        public int PagesCount => (int)Math.Ceiling(AdsCount * 1.0 / 9);
+        public int PagesCount => (int)Math.Ceiling(AdsCount * 1.0 / 6);
 
         public int Page { get; set; }
 

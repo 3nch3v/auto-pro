@@ -37,9 +37,27 @@ namespace AutoPro.Web.Controllers
           return Ok(ads);
         }
 
+        [HttpGet]
+        [Route("All/{page:int}")]
+        public ActionResult<AllAdsResponse> GetAll(int page = 1)
+        {
+            var ads = _adService.GetAllAsync(page);
+
+            return Ok(ads);
+        } 
+
+        [HttpGet]
+        [Route("Details/{id:int}")]
+        public ActionResult<AdResponse> GetSigle(int id)
+        {
+            var ad = _adService.GetSigleAsync(id);
+
+            return Ok(ad);
+        }
+
         [Authorize]
         [HttpPost]
-        [Route("Delete/{id}")]
+        [Route("Delete/{id:int}")]
         public async Task<ActionResult> Delete(int id)
         {
             var userId = User.GetId();
@@ -50,31 +68,13 @@ namespace AutoPro.Web.Controllers
 
         [Authorize]
         [HttpPost]
-        [Route("Deactivate/{id}")]
+        [Route("Deactivate/{id:int}")]
         public async Task<ActionResult> Deactivate(int id)
         {
             var userId = User.GetId();
             await _adService.DeactivateAsync(id, userId);
 
             return Ok(new { message = "The ad was successful deactivated." });
-        }
-
-        [HttpGet]
-        [Route("Sigle/{id}")]
-        public ActionResult<AdResponse> GetSigle(int id)
-        {
-            var ad = _adService.GetSigleAsync(id);
-
-            return Ok(ad);
-        }
-
-        [HttpGet]
-        [Route("All")]  // {}
-        public ActionResult<AllAdsResponse> GetAll(int page = 1)
-        {
-            var ads = _adService.GetAllAsync(page);
-
-            return Ok(ads);
-        }
+        } 
     }
 }

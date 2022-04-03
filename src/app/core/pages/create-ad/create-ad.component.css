@@ -1,9 +1,8 @@
 .create-ad {
     margin: 50px auto;
-    min-height: 100vh;
     position:relative;
     max-width: 1320px;
-    height: calc(100vh - 434px);
+    min-height: calc(100vh - 434px);
 }
 
 .btn {

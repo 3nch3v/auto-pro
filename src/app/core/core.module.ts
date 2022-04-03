@@ -9,6 +9,7 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { CreateAdComponent } from './pages/create-ad/create-ad.component';
 import { AllComponent } from './pages/all/all.component';
+import { DetailsComponent } from './pages/details/details.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { AllComponent } from './pages/all/all.component';
     HomePageComponent,
     NotFoundComponent,
     CreateAdComponent,
-    AllComponent
+    AllComponent,
+    DetailsComponent
   ],
   imports: [
     CommonModule,

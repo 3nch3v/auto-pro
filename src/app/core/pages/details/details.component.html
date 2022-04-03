@@ -1,0 +1,48 @@
+<div class="container mb-4">
+    <div class="card">
+        <div class="card-body">
+            <h3 class="card-title">{{ad?.make}}</h3>
+            <h6 class="card-subtitle mb-4">{{ad?.model}}</h6>
+            <div class="row">
+                <div class="col-lg-5 col-md-5 col-sm-6">
+                    <div class="white-box text-center"><img src={{ad?.pictureUrl}} class="img-responsive mw-100"></div>
+                </div>
+                <div class="col-lg-7 col-md-7 col-sm-6">
+                    <h4 class="box-title mt-5">{{ad?.title}}</h4>
+                    <p>{{ad?.description}}</p>
+                    <h2 class="mt-4">{{ad?.price}} EUR</h2>
+                    <h5 class="box-title">{{ad?.date}}</h5>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <h3 class="box-title mt-5">General Info</h3>
+                    <div class="table-responsive">
+                        <table class="table table-striped table-product">
+                            <tbody>
+                                <tr>
+                                    <td width="390">Make</td>
+                                    <td>{{ad?.make}}</td>
+                                </tr>
+                                <tr>
+                                    <td>Model</td>
+                                    <td>{{ad?.model}}</td>
+                                </tr>
+                                <tr>
+                                    <td>First registration</td>
+                                    <td>{{ad?.year}}</td>
+                                </tr>
+                                <tr>
+                                    <td>Power</td>
+                                    <td>{{ad?.horsePower}}</td>
+                                </tr>
+                                <tr>
+                                    <td>Kilometers</td>
+                                    <td>{{ad?.kilometers}}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

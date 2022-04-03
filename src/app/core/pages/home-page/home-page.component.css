@@ -1,3 +1,7 @@
+.container {
+  min-height: calc(100vh - 534px);
+}
+
 .page-banner {
   position: relative;
   margin-top: 16px;
