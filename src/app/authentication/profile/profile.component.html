@@ -17,6 +17,6 @@
           </tr>
         </tbody>
       </table>
-      <p class="text-center" *ngIf="!profile && !profileFetchFailed">You have no ads at the moment.</p>
+      <p class="text-center" *ngIf="profile?.ads?.length == 0">You have no ads at the moment.</p>
       <p class="text-center text-danger" *ngIf="profileFetchFailed">Something goes wrong. Please try again.</p>
 </div>

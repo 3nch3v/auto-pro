@@ -7,7 +7,12 @@ import { AuthenticationService } from 'src/app/services/authentication.service';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
+  collapsed = true;
   constructor(private readonly authService: AuthenticationService) { }
+
+  toggleCollapsed(): void {
+    this.collapsed = !this.collapsed;
+  }
 
   authView(): boolean {
     return this.authService.isAuthenticated();
@@ -15,5 +20,6 @@ export class HeaderComponent {
 
   logout(): void {
     this.authService.logout();
+    this.toggleCollapsed();
   }
 }

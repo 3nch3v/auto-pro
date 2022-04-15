@@ -22,8 +22,8 @@
             <h5>Newsletter</h5>
             <p>Get updates, news or events on your mail.</p>
             <form [formGroup]="subscribeForm" (ngSubmit)="subscribe()">
-              <input id="email" type="email" class="form-control" placeholder="Enter your email.." formControlName="email" (change)="onChanged()">
-              <button type="submit" class="col-12 btn btn-secondary btn-block mt-2">Subscribe</button>
+              <input id="email" type="email" class="form-control" placeholder="Enter your email.." formControlName="email" email="true" (change)="onChangedHideMsg()">
+              <button type="submit" class="col-12 btn btn-secondary btn-block mt-2" [disabled]="!subscribeForm.valid">Subscribe</button>
             </form>
             <div *ngIf="email?.touched && email?.errors?.['required']">
               <p class="text-danger text-center mt-2">Please enter valid email.</p>
