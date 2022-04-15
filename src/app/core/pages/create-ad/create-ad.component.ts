@@ -9,7 +9,9 @@ import { AdService } from 'src/app/services/ad.service';
   templateUrl: './create-ad.component.html',
   styleUrls: ['./create-ad.component.css']
 })
+
 export class CreateAdComponent {
+ 
   createAdForm: FormGroup;
   isCreatedSuccessful: boolean = true;
 
@@ -63,6 +65,7 @@ export class CreateAdComponent {
         Validators.required,
         Validators.minLength(6),
         Validators.maxLength(2048),
+        Validators.pattern('.gif|.jpeg|.jpg$'),
       ]),
      });
      }

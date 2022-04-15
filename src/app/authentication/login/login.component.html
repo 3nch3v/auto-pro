@@ -6,7 +6,7 @@
                 <div class="row form-group">
                     <div class="col-md-12">
                         <label class="text-black" for="email">Email</label>
-                        <input type="email" id="email" class="form-control" formControlName="email">
+                        <input type="email" id="email" class="form-control" formControlName="email" (focus)="loginSuccessful = true">
                     </div>
                     <div *ngIf="email?.touched && email?.errors?.['required']">
                         <p class="text-danger">Email field is rerqired.</p>
@@ -16,7 +16,7 @@
                 <div class="row form-group">
                     <div class="col-md-12">
                         <label class="text-black" for="subject">Password</label>
-                        <input type="password" id="subject" class="form-control" formControlName="password">
+                        <input type="password" id="subject" class="form-control" formControlName="password"  (focus)="loginSuccessful = true">
                     </div>
                     <div *ngIf="password?.touched && password?.errors?.['required']">
                         <p class="text-danger">Password field is rerqired.</p>
@@ -24,12 +24,12 @@
                 </div>
 
                 <div *ngIf="!loginSuccessful">
-                    <p class="text-danger mt-2">Incorrect email ot password.</p>
+                    <p class="text-danger mt-2">Incorrect email or password.</p>
                 </div>
 
                 <div class="row form-group mt-4">
                     <div class="col-md-12">
-                        <input type="submit" value="Login" class="btn btn-primary">
+                        <input type="submit" value="Login" class="btn btn-primary" [disabled]="!loginForm.valid">
                     </div>
                 </div>
             </form>

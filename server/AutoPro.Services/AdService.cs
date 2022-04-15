@@ -71,9 +71,12 @@ namespace AutoPro.Services
     public AllAdsResponse GetAllAsync(int page)
     {
       var query = _dbContext.Advertisements.AsQueryable();
-      var count = query.Count();
+      var count = query.Where(x => x.IsActive == true).Count();
 
-      var ads = query.Skip((page - 1) * 6)
+      var ads = query
+        .Where(x => x.IsActive == true)
+        .OrderByDescending(x => x.Date)
+        .Skip((page - 1) * 6)
         .Take(6)
         .ToList();
 
@@ -103,6 +106,7 @@ namespace AutoPro.Services
     public IList<AdListingModel> GetRandom()
     {
       var ads = _dbContext.Advertisements
+        .Where(x => x.IsActive == true)
         .OrderBy(emp => Guid.NewGuid())
         .Take(3)
         .ToList();
@@ -123,7 +127,7 @@ namespace AutoPro.Services
 
     public AdResponse GetSigleAsync(int id)
     {
-      var ad = _dbContext.Advertisements.FirstOrDefault(x => x.Id == id);
+      var ad = _dbContext.Advertisements.FirstOrDefault(x => x.Id == id && x.IsActive == true);
       if (ad == null)
       {
         throw new Exception("Ad does not exist.");
