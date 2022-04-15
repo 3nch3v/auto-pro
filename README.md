@@ -1,9 +1,9 @@
-=============================================
-# AutoPro
-=============================================
+==============
+  # AutoPro
+==============
 
 The AutoPro was created for the Angular module project defence in SoftUni. It is a simple app for car selling.
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0 and use ASP.NET Core API 6.0 for the back-end part.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0 and uses ASP.NET Core API 6.0 for the back-end part.
 To authenticate a user, a client application sends a JSON Web Token (JWT) in the authorization header of the HTTP request to the backend API.
 
 ### App Architecture
@@ -14,17 +14,17 @@ To authenticate a user, a client application sends a JSON Web Token (JWT) in the
 
 - 3 random car ads will be shown
 
-- An authenticated user has access to all car ads, register and login
+- An authenticated user has access to all car ads, register and log in
 
 - Not authenticated user has access to all car ads, create, profile and logout
 
-- Signin for newsletter into the footer 
+- Sign in for the newsletter in the footer 
 
 ##### Cars (not authorized)
 
 - 6 car ads will be shown per page
     
-- paganation 
+- pagination  
 
 - details button 
 
@@ -36,7 +36,7 @@ To authenticate a user, a client application sends a JSON Web Token (JWT) in the
 
 ##### Create (authentication required)
 
-- Create car ad 
+- Create a car ad 
 
 - Form validation
 
